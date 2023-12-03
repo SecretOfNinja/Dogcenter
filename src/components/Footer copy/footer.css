@@ -1,0 +1,129 @@
+footer{
+    height: 25vh;
+}
+
+#socials-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-left: 3%;
+    color: bisque;
+}
+
+.social-media{
+margin-left: 40%;
+margin-top: 2%;
+position: relative;
+}
+
+.email-container ,
+.discord-container,
+.instagram-container,
+.github-container{
+    display: flex;
+    padding-bottom: 1rem;
+    
+}
+
+.social-media p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.instagram-container,
+.github-container{
+    position: absolute;
+    top: 0;
+    left: 20rem;
+}
+
+.github-container{
+    top: 50px;
+}
+
+.icons{
+    font-size: 2rem;
+    color: white;
+}
+.link:hover{
+    color: green;
+}
+
+.copy-right{
+    color: black;
+    font-size: 0.9rem;
+    margin-left: 13%;
+}
+
+.submit-btn{
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+.social-media{
+
+    margin-left: 30vw;
+    margin-top: 5%;
+}
+    
+#socials-h3{
+    padding-top: 3%;
+       
+}
+
+}
+@media (max-width: 768px) {
+.social-media{
+
+    margin-left: 30vw;
+    margin-top: 5%;
+}
+
+#socials-h3{
+    padding-top: 3%;
+   
+}
+
+}
+
+@media (max-width: 576px) {
+footer{
+width: 100%;
+}
+#socials-h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.social-media{
+margin-left: 7rem;
+font-size: 1rem;
+
+}
+.social-media p{
+    padding-left: 10px;
+}
+
+.icons{
+    font-size: 1.6rem;
+    
+}
+.email-container p,
+.discord-container p{
+    position: relative;
+    top: -5px;
+}
+.github-container{
+    position: absolute;
+    left: 0;
+    top: 80px;
+      
+}
+
+.instagram-container{
+    position: relative;
+    left: 0;
+    top: 33px;
+}
+
+}
